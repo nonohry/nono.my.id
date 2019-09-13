@@ -1,0 +1,7 @@
+{% comment %}
+*
+*  Use this include to use ads inbetween your posts
+*
+{% endcomment %}<div class="border-dotted text-center">
+  <img src="#" alt="">
+</div>

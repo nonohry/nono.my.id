@@ -1,16 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: compress
+---
+{% include helper/_1_head.html %}
 
-  {% include head.html %}
+{% include helper/_2_topbar_navigation.html %}
 
-  <body>
+{% include helper/_3_masthead.html %}
 
-    {% include navigation.html %}
+{{ content }}
 
-    <main>
-      {{ content }}
-    </main>
+{% include helper/_4_footer.html %}
 
-    {% include footer.html %}
-  </body>
+{% include helper/_5_footer_scripts.html %}
+
+</body>
 </html>
