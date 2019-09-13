@@ -12,7 +12,7 @@ sitemap:
 @import "00_functions/00_functions";
 
 //  Set color scheme in _config.yml
-@import "01_colors/nono.scss";
+@import "01_colors/_color_scheme_{{ site.color_scheme }}.scss";
 
 @import "02_settings/00_settings";
 
