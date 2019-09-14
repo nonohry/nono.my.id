@@ -2,6 +2,7 @@
 layout: post
 title:  "Cara mengatasi error: insufficient permissions for device di Linux"
 categories: [ Linux ]
+image: /assets/posts/adbstart-server.png
 tags: [sticky]
 ---
 
