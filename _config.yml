@@ -21,6 +21,7 @@ description: "Part time hard worker, full time dreamer."
 # List of links in the navigation bar
 navbar-links:
   Home: "https://nono.my.id"
+  Courses: "courses"
   Publications: "publications"
   About Me: "about"
 
