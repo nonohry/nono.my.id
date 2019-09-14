@@ -1,73 +1,30 @@
 ---
-layout: default
-format: page
+layout: blog
 ---
-<main role="main" id="content" class="row">
-  <div class="{% if page.fullwidth == true %}small-12 columns{% else %}medium-8 medium-centered columns{% endif %}">
-    <article itemscope itemtype="http://schema.org/Article">
-      <meta content="{{ site.data.ui[site.lang].html_language }}" itemprop="inLanguage" />
-      <header>
+<article class="unit-article layout-page">
+    <div class="unit-inner unit-article-inner">
+        <div class="content">
+            <header>
+                <div class="unit-head">
+                    <div class="unit-inner unit-head-inner">
+                        <h1 class="entry-title">{{ page.header }}</h1>
+                    </div>
+                </div>
+            </header>
 
-        {% include helper/_video_embed.html %}
+            <div class="bd article-content">
+                <div class="entry-content">
+                    {{ content }}
+                </div>
+            </div>
 
-        {% if page.video or page.embed %}
-        {% elsif page.image %}
-        <figure>
-          <img src="{{ "/images/" | absolute_url }}{{ page.image }}" alt="{{ page.title | strip_html }}" itemprop="image">
-
-          {% if page.caption_url and page.caption %}
-          <figcaption>
-            <a href="{{ page.caption_url }}" target="_blank">{{ page.caption }}</a>
-          </figcaption>
-          {% elsif page.caption %}
-          <figcaption>
-            {{ page.caption }}
-          </figcaption>
-          {% endif %}
-        </figure>
-        {% endif %}
-
-
-        {% if page.link %}
-          <p class="subheadline">Link</p>
-        {% elsif page.subheadline %}
-          <p class="subheadline">{{ page.subheadline }}</p>
-        {% endif %}
-
-
-        <h1 itemprop="name headline">{{ page.title | remove: '<p>' | remove: '</p>' }}</h1>
-      </header>
-
-
-      <div class="main-content" itemprop="articleSection">
-        {% if page.quote %}<blockquote style="margin: 0;">{{ page.quote }}</blockquote>{% endif %}
-        {{ content }}
-
-
-        {% if page.link %}
-          <p><a class="button" href="{{ page.link }}" title="{{ site.data.ui[site.lang].source }} › {{ page.title }}">{{ site.data.ui[site.lang].check_out_link }}</a></p>
-        {% endif %}
-
-      </div><!-- /.content -->
-
-
-      {% if page.comments == true %}
-      {% include helper/_comments.html %}
-      {% endif %}
-
-
-      {% if page.show_meta == true %}
-      <footer>
-        <p><small>
-          {% if page.author %}{{ site.data.ui[site.lang].written_by }} {{ page.author }} // {% endif %}
-          {% capture time %}{{ page.date }}{% endcapture %}
-          <time datetime="{{ time | truncate: 13 | remove: '...' }}" itemprop="datePublished">{{ time | truncate: 13 | remove: '...' }}</time>
-        </small></p>
-      </footer>
-      {% endif %}
-
-
-      {% include helper/_pagination.html %}
-    </article>
-  </div>
-</main><!-- /.row -->
+            <footer class="unit-foot">
+                <div class="unit-inner unit-foot-inner">
+                    <p>
+                        <a class="internal gotop" href="#page">{{ site.data.i18n[site.lang].back_to_top }}</a>
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+</article>
