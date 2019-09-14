@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  "Cara mengatasi error: insufficient permissions for device di Linux"
-categories: [ Linux ]
-tags: [ubuntu, android]
+tags: [Ubuntu]
 ---
 
 ADB (Android Debug Bridge) adalah command line tool yang mengkomunikasikan android device dengan komputer. singkatnya ini adalah aplikasi client server. :)
@@ -21,5 +20,7 @@ Selanjutnya, start adb server dengan ditambahkan perintah sudo untuk mendapatkan
 sudo adb start-server
 ```
 jika Outuput dari perintah diatas adalah sebagai berikut, maka anda telah berhasil mengatasi masalah error: insufficient permissions for device.
+
 ![ADB Server](https://4.bp.blogspot.com/-i0w6_7rEYZw/VtZpHi2-qSI/AAAAAAAAA90/cco59bmiZRQ/s320/adbstart-server.png)
+
 satu lagi mungkin anda bisa mencabut dan memasang kembali kabel usb yang terkoneksi ke android dan komputer.
