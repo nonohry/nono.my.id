@@ -20,7 +20,7 @@ plugins:
   
 authors:
     nono:
-      name:           Nono
+      name:           Nono Heryana
       site:           https://nono.my.id
       avatar:         /assets/images/avatar.jpg
       bio:            "Hi, I am Nono, the author of this blog. I hope you like it!"
@@ -35,7 +35,7 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: Nono
+      author: Nono Heryana
       avatar: /assets/images/avatar.jpg
       
   # all pages
