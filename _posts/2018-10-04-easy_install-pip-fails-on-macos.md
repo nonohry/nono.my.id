@@ -2,6 +2,7 @@
 layout: post
 title:  "easy_install pip fails on macOS"
 tags: [macOS]
+published: true
 ---
 
 This is what I get:

@@ -1,7 +1,10 @@
 ---
 layout: post
 title: First post!
-image: /img/hello_world.jpeg
+toc: true
+toc_label: "Contents"
+author_profile: true
+published: true
 ---
 
 This is my first post, how exciting!

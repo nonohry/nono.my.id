@@ -2,6 +2,7 @@
 layout: post
 title: Disable pop-up update Sublime Text 3
 tags: [Tips & tricks]
+published: true
 ---
 
 Cara agar tidak muncul pop-up Update Sublime Text 3 yang kadang sangat menggangu cukup akses ke:
