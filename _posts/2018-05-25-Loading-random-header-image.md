@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: Randomizing header image
 header:
   overlay_image: random

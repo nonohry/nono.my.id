@@ -1,4 +1,5 @@
 ---
+classes: wide
 title:  "Mount Read & Write HFS+ on Ubuntu"
 tags: [Ubuntu]
 published: true

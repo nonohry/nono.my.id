@@ -1,4 +1,5 @@
 ---
+classes: wide
 title:  "Cara mengatasi error: insufficient permissions for device di Ubuntu"
 tags: [Ubuntu]
 published: true

@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: Sticky table of contents sidebar
 tags: [Random stuff, Jekyll, Liquid, CSS, Hacking]
 toc: true

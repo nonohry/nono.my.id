@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: Menjalankan apps via ADB
 tags: [Android]
 published: true

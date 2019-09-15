@@ -1,4 +1,5 @@
 ---
+classes: wide
 title: Disable pop-up update Sublime Text 3
 tags: [Tips & tricks]
 published: true
