@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: 'Publications'
 subtitle: A list of my recent publications
 permalink: /publications
