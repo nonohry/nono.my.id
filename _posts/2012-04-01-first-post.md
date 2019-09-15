@@ -1,7 +1,22 @@
 ---
 layout: post
-title: First post!
-image: /img/hello_world.jpeg
+title: Menjalankan apps via ADB
+tags: [Android]
 ---
 
-This is my first post, how exciting!
+Caranya mudah, silahkan ikuti langkah-langkah dibawah ini.
+
+1. buka adb shell
+
+   ```bash 
+   add shell
+   ```
+
+2. lalu jalankan perintah am start + aplikasi yang ingin kita jalankan
+
+   ```bash
+   am start com.cyanogenmod.filemanager
+   ```
+
+   
+
