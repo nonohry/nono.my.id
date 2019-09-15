@@ -786,10 +786,3 @@ pre {
   font-style: italic;
   font-size: 16px;
 }
-
-
-div#toc {
-    padding: 10px;
-    border: 1px solid #aaa;
-    display: inline-block !important;
-}
