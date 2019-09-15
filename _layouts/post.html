@@ -3,7 +3,7 @@ layout: base
 ---
 
 {% include header.html type="post" %}
-{% include toc.html html=content %}
+
 
 <div class="container">
   <div class="row">
@@ -33,6 +33,7 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
+        {% include toc.html html=content %}
         {{ content }}
       </article>
 
