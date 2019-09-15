@@ -4,10 +4,10 @@ main:
     url: /
 
   - title: "Courses"
-    url: /pages/
+    url: /courses
 
-  - title: "Publication"
-    url: /tags/
+  - title: "Publications"
+    url: /publications
 
   - title: "About"
-    url: /about/
+    url: /about
