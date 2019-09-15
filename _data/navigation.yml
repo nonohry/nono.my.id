@@ -3,6 +3,9 @@ main:
   - title: "Home"
     url: /
 
+  - title: "Blog"
+    url: /tags
+
   - title: "Courses"
     url: /courses
 
