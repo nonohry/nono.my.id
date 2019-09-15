@@ -4,6 +4,15 @@ layout: base
 
 {% include header.html type="post" %}
 
+<!-- Added toc.js -->
+<script src="/js/toc.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#toc').toc({ headers: 'h1, h2, h3, h6' });
+});
+</script>
+
+
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -32,6 +41,7 @@ layout: base
       {% endif %}
 
       <article role="main" class="blog-post">
+        <div id="toc"></div>
         {{ content }}
       </article>
 
