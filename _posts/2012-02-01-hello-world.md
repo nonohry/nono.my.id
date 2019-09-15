@@ -1,5 +1,4 @@
 ---
-classes: wide
 title: First post!
 toc: true
 toc_label: "Contents"
