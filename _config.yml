@@ -77,7 +77,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : *uname1 ryujiazka
+  username               : *uname1
 facebook:
   username               : &uname2 ryujiazka
   app_id                 :
