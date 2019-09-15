@@ -2,6 +2,7 @@
 layout: post
 title: First post!
 image: /img/hello_world.jpeg
+toc: true
 ---
 
 This is my first post, how exciting!
@@ -11,4 +12,3 @@ This is my first post, how exciting!
 ## Heading level 2
 
 ### Heading level 3
-
