@@ -3,7 +3,6 @@ classes: wide
 title: 'Publications'
 subtitle: A list of my recent publications
 permalink: /publications
-author_profile: true
 ---
 
 <script src="https://bibbase.org/service/mendeley/48ce591e-58f1-3fcf-98c5-c7c7c51a43aa?jsonp=1"></script>
