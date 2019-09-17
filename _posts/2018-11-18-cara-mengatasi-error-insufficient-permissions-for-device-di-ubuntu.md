@@ -1,8 +1,8 @@
 ---
-classes: wide
+layout: post
 title:  "Cara mengatasi error: insufficient permissions for device di Ubuntu"
 tags: [Ubuntu]
-published: true
+comments: true
 ---
 
 ADB (Android Debug Bridge) adalah command line tool yang mengkomunikasikan android device dengan komputer. singkatnya ini adalah aplikasi client server. :)

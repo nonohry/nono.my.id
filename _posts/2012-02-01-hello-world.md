@@ -1,9 +1,7 @@
 ---
+layout: post
 title: First post!
-toc: true
-toc_label: "Contents"
-author_profile: true
-published: true
+comments: true
 ---
 
 This is my first post, how exciting!

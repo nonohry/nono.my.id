@@ -1,9 +1,8 @@
 ---
-classes: wide
+layout: post
 title:  "Mount Read & Write HFS+ on Ubuntu"
 tags: [Ubuntu]
-published: true
-
+comments: true
 ---
 
 These steps Mount Read & Write HFS+ on Ubuntu[^1]

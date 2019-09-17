@@ -1,8 +1,8 @@
 ---
-classes: wide
+layout: post
 title: Menjalankan apps via ADB
 tags: [Android]
-published: true
+comments: true
 ---
 
 Caranya mudah, silahkan ikuti langkah-langkah dibawah ini.

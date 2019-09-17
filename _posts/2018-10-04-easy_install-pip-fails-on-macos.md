@@ -1,8 +1,8 @@
 ---
-classes: wide
+layout: post
 title:  "easy_install pip fails on macOS"
 tags: [macOS]
-published: true
+comments: true
 ---
 
 This is what I get:
