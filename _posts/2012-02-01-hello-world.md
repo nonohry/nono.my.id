@@ -3,6 +3,7 @@ layout: post
 title: First post!
 comments: true
 toc: true
+toc_sticky: true
 ---
 
 This is my first post, how exciting!
