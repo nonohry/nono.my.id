@@ -1,13 +1,7 @@
-# Site navigation links
+# main links
+main:
+  - title: "Home"
+    url: /
 
-- title: Blog
-  url: /blog
-- title: Courses
-  url: /courses
-- title: Publications
-  url: /publications
-- title: About
-  url: /about
-
-#- title: Theme Setup
-#  url: /theme-setup/
+  # - title: "Sitemap"
+  #   url: /sitemap/
