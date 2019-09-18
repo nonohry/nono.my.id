@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Mount Read & Write HFS+ on Ubuntu"
 tags: [Ubuntu]
 comments: true

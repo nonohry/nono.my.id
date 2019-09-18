@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Cara mengatasi error: insufficient permissions for device di Ubuntu"
 tags: [Ubuntu]
 comments: true

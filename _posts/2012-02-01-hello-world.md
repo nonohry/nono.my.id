@@ -1,5 +1,4 @@
 ---
-layout: post
 title: First post!
 comments: true
 toc: true

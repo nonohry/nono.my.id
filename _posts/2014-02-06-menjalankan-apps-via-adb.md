@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Menjalankan apps via ADB
 tags: [Android]
 comments: true

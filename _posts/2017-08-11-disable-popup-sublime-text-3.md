@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Disable pop-up update Sublime Text 3
 tags: [Tips & tricks]
 comments: true
