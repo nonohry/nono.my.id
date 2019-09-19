@@ -1,6 +1,6 @@
 ---
 layout: single
-class: wide
+classes: wide
 author_profile: true
 title: 'Courses'
 subtitle: The courses I have taught

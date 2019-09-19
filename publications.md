@@ -1,6 +1,6 @@
 ---
 layout: single
-class: wide
+classes: wide
 author_profile: true
 title: 'Publications'
 subtitle: A list of my recent publications
