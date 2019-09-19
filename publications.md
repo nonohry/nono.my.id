@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: 'Publications'
 subtitle: A list of my recent publications
 permalink: /publications
