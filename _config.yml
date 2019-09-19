@@ -120,7 +120,7 @@ author:
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Google Scholar"
-      icon: "fas fa-fw fa-google"
+      icon: "fab fa-fw fa-google"
       url: "https://scholar.google.co.id/citations?user=OkLdAMQAAAAJ"      
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
