@@ -1,4 +1,5 @@
 ---
+layout: default
 title: 'Courses'
 subtitle: The courses I have taught
 permalink: /courses

@@ -1,6 +1,6 @@
 ---
 title: Disable pop-up update Sublime Text 3
-tags: [Tips & tricks]
+categories: [Tips & tricks]
 comments: true
 ---
 

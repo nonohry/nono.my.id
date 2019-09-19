@@ -1,6 +1,6 @@
 ---
 title:  "easy_install pip fails on macOS"
-tags: [macOS]
+categories: [macOS]
 comments: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Menjalankan apps via ADB
-tags: [Android]
+categories: [Android]
 comments: true
 ---
 
