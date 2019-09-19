@@ -1,5 +1,7 @@
 ---
 layout: single
+class: wide
+author_profile: true
 title: 'Publications'
 subtitle: A list of my recent publications
 permalink: /publications

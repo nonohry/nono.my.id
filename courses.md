@@ -1,5 +1,7 @@
 ---
 layout: single
+class: wide
+author_profile: true
 title: 'Courses'
 subtitle: The courses I have taught
 permalink: /courses
