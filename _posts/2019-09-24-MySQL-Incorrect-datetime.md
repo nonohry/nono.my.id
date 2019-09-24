@@ -6,7 +6,7 @@ comments: true
 
 MySQL Incorrect datetime value: '0000-00-00 00:00:00'
 
-```mysql
+```sql
 -- save current setting of sql_mode
 SET @old_sql_mode := @@sql_mode ;
 
