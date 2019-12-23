@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: 'Courses'
 feature_text: <h2 class="whitetext highlighted">Courses</h2><span class="whitetext">The courses I have taught</span> 
 image: /assets/img/avatar.jpg

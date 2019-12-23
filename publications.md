@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: page
 title: 'Publications'
 feature_text: <h2 class="whitetext highlighted">Publications</h2><span class="whitetext">A list of my recent publications</span> 
 image: /assets/img/avatar.jpg
