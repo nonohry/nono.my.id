@@ -1,5 +1,9 @@
 ---
 title: First post!
+excerpt: First Post!
+feature_text: <h2 class="whitetext">Hello World @ nono.my.id</h2><span class="whitetext">First Post!</span> 
+image: /assets/img/logo.png
+tags: hello world
 comments: true
 toc: true
 toc_label: "Table of Contents"

@@ -1,15 +1,7 @@
 ---
-layout: single
-classes: wide
-author_profile: true
-title: About me
-subtitle: Why you'd want to go on a date with me
-permalink: /about
+layout: home
+title: whoami
+feature_text: <h2 class="whitetext highlighted">nono@heryana:~$ whoami</h2>
+image: /assets/img/avatar.jpg
 ---
-
-My name is Nono Heryana. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+I pursued a MS in Computer Science at ....

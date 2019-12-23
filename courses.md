@@ -1,9 +1,8 @@
 ---
-layout: single
-classes: wide
-author_profile: true
+layout: home
 title: 'Courses'
-subtitle: The courses I have taught
+feature_text: <h2 class="whitetext highlighted">Courses</h2><span class="whitetext">The courses I have taught</span> 
+image: /assets/img/avatar.jpg
 permalink: /courses
 ---
 
