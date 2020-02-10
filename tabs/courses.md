@@ -1,5 +1,5 @@
 ---
-title: "Courses"
+title: Courses
 permalink: /courses
 ---
 
