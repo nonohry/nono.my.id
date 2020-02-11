@@ -18,6 +18,10 @@ This page serves as a directory for the courses I have taught, which is freely a
 3. [INF61509 (Teknologi Informasi)](/courses/teknologi-informasi)
 4. [INF61511 (Algoritma dan Pemrograman)](/courses/algoritma-dan-pemrograman)
 5. [INF61629 (Teori Bahasa dan Automata)](/courses/teori-bahasa-dan-automata)
+6. [INF61536 (Sistem Operasi)](/courses/sistem-operasi)
+7. [INF61533 (Keamanan Sistem)](/courses/keamanan-sistem)
+8. [INF61552 (Komputer dan Masyarakat)](/courses/komputer-dan-masyarakat)
+9. [INF61525 (Pemrograman Berbasis Web)](/courses/pemrograman-berbasis-web)
 
 #### Sistem Informasi
 1. [SIS61502 (Pengenalan Algoritma dan Pemrograman)]()
