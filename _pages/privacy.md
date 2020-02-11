@@ -5,7 +5,7 @@ title       : Privacy Policy
 description : This Privacy Policy governs the manner in which we collect, use, maintain and disclose information collected from users.
 ---
 
-This Privacy Policy governs the manner in which Groveld Technologies collects, uses, maintains and discloses information collected from users (each, a "User") of the [https://www.groveld.com](https://www.groveld.com) website ("Site"). This privacy policy applies to the Site and all products and services offered by Groveld Technologies.
+This Privacy Policy governs the manner in which xxx Technologies collects, uses, maintains and discloses information collected from users (each, a "User") of the [https://nono.my.id](https://nono.my.id) website ("Site"). This privacy policy applies to the Site and all products and services offered by xxx Technologies.
 
 ## Personal identification information
 

@@ -2,7 +2,7 @@
 layout      : page
 permalink   : /
 title       : Articles
-description : The personal website of Martin Groeneveld
+description : Part time hard worker, full time dreamer.
 ---
 
 {% for post in site.posts %}
