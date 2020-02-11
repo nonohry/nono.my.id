@@ -1,49 +1,50 @@
 ---
-layout: compress
-# Default layout
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT Licensed
+layout: compress_html
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.locale }}" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+  <meta name="format-detection" content="telephone=no">
 
-  {% include head.html %}
+  <link rel="preconnect" href="//cdnjs.cloudflare.com">
+  <link rel="preconnect" href="//code.jquery.com">
 
-  <body data-spy="scroll" data-target="#toc">
-    <div id="sidebar" class="d-flex flex-column">
-      {% include sidebar.html %}
-    </div>
-    <div id="main-wrapper">
-      {% include topbar.html %}
-      <div id="main">
+  <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="{{ "/manifest.json" | relative_url }}">
+  <meta name="theme-color" content="#2b5797">
+  <meta name="msapplication-config" content="{{ "/browserconfig.xml" | relative_url }}">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="{{ site.pwa_title }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/apple-touch-icon.png" | relative_url }}">
+  <link rel="mask-icon" href="{{ "/img/logo.svg" | relative_url }}" color="#f00">
 
-        {% capture _content %}
-          {{ content }}
-        {% endcapture %}
+  <meta name="description" content="{{ page.description | default: site.description | xml_escape }}">
+  <meta name="keywords" content="{{ page.tags | default: '' | join: ', ' | xml_escape }}">
+  <meta name="author" content="{{ page.author | default: site.author | xml_escape }}">
+  <meta name="robots" content="index, follow">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title | xml_escape }}" href="{{ "/atom.xml" | relative_url }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <title>{% if page.title %}{{ page.title | xml_escape }} - {{ site.title | xml_escape }}{% else %}{{ site.title | xml_escape }}{% endif %}</title>
 
-        {% include fixlinenos.html %}
-        {{ _content }}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic,700italic&display=swap" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{ "/css/syntax.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/css/main.css" | relative_url }}">
 
-        {% include footer.html %}
-      </div>
-      {% include search-results.html %}
-    </div>
+  {% include analytics.html %}
+</head>
+<body>
+  {{ content }}
 
-    <div id="mask"></div>
-
-    <a id="back-to-top" href="#" class="btn btn-lg btn-box-shadow" role="button">
-      <i class="fas fa-angle-up"></i>
-    </a>
-
-    {% if jekyll.environment == 'production' %}
-      {% include google-analytics.html %}
-    {% endif %}
-
-    {% include search-loader.html %}
-
-  </body>
-
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="{{ "/js/main.js" | relative_url }}"></script>
+</body>
 </html>

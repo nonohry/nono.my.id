@@ -1,28 +1,27 @@
 ---
 layout: default
-# The page layout
-# v2.0
-# https://github.com/cotes2020/jekyll-theme-chirpy
-# © 2017-2019 Cotes Chung
-# MIT License
 ---
 
-<div class="row">
-  <div class="col-12 col-lg-11 col-xl-8">
-    <div id="page" class="post pb-5 pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4 pl-xl-3">
-    {% if page.dynamic_title %}
-      <h1 class="dynamic-title">{{ page.title }}</h1>
-      <div class="post-content">
+{% include navigation.html %}
+
+<main>
+
+  <div class="container-fluid mb-3 mb-lg-5">
+    <div class="row">
+      <div class="col">
+
+        {% if page.title %}
+        <header>
+          <div class="container-fluid text-center py-3 py-lg-5">
+            <h1 class="m-0">{{ page.title }}</h1>
+          </div>
+        </header>
+        {% endif %}
+
         {{ content }}
+
       </div>
-    {% else %}
-      {{ content }}
-    {% endif %}
+    </div>
+  </div>
 
-    </div> <!-- #page -->
-
-  </div><!-- .col-12 -->
-
-  {% include panel.html %}
-
-</div>
+</main>
