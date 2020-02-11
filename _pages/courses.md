@@ -17,6 +17,9 @@ This page serves as a directory for the courses I have taught, which is freely a
 1. [SIS61502 (Pengenalan Algoritma dan Pemrograman)]()
 2. [SIS61505 (Algoritma & Struktur data)](/courses/algoritma-dan-struktur-data)
 
+### Pendidikan Luar Sekolah
+1. [Aplikasi Komputer]()
+
 ## Politeknik Kelautan dan Perikanan Karawang
 ### Teknik Kelautan
 1. [Matematika Teknik]()
