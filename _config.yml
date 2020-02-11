@@ -29,7 +29,7 @@ pwa_backgroundcolor   : '#1e88e5'
 
 serviceworker         : true
 #google_analytics      : 'UA-xxx'
-disqus_name           : 'nonohry'
+#disqus_name           : 'nonohry'
 
 # Custom Jekyll Configuration
 title                 : 'Nono Heryana'
