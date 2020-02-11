@@ -1,7 +1,7 @@
 ---
 layout      : page
 permalink   : /
-title       : Articles
+title       : Part time hard worker, full time dreamer.
 description : Part time hard worker, full time dreamer.
 ---
 
