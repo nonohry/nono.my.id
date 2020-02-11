@@ -40,4 +40,5 @@ This page serves as a directory for the courses I have taught, which is freely a
 * [Matematika]()
 
 ### Universitas Buana Perjuangan Karawang
+#### Teknik Informatika
 * [Algoritma]()
