@@ -14,11 +14,15 @@ This page serves as a directory for the courses I have taught, which is freely a
 5. [INF61629 (Teori Bahasa dan Automata)](/courses/teori-bahasa-dan-automata)
 
 ### Sistem Informasi
-1. [Algoritma & Struktur data)](/courses/algoritma-dan-struktur-data)
+1. [SIS61502 (Pengenalan Algoritma dan Pemrograman)]()
+2. [SIS61505 (Algoritma & Struktur data)](/courses/algoritma-dan-struktur-data)
 
 ## Politeknik Kelautan dan Perikanan Karawang
 ### Teknik Kelautan
-1. Matematika Teknik
+1. [Matematika Teknik]()
 
 ### Teknik Penangkapan Ikan
-2. Matematika
+2. [Matematika]()
+
+## Universitas Buana Perjuangan Karawang
+1. [Algoritma]()
