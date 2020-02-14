@@ -1,10 +1,27 @@
 ---
 layout: default
-css: ["page.css"]
 ---
-<div id="page-info">
-  <h3>{{page.title}}</h3>
-</div>
-<div class="row">
-  {{ content }}
-</div>
+
+{% include navigation.html %}
+
+<main>
+
+  <div class="container-fluid mb-3 mb-lg-5">
+    <div class="row">
+      <div class="col">
+
+        {% if page.title %}
+        <header>
+          <div class="container-fluid text-center py-3 py-lg-5">
+            <h1 class="m-0">{{ page.title }}</h1>
+          </div>
+        </header>
+        {% endif %}
+
+        {{ content }}
+
+      </div>
+    </div>
+  </div>
+
+</main>

@@ -1,6 +1,7 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-gem 'github-pages', versions['github-pages'], group: :jekyll_plugins
+gem 'wdm' if Gem.win_platform?
+gem 'tzinfo-data' if Gem.win_platform?
+gem 'rake'
+gem 'jekyll'
+gem 'html-proofer'
