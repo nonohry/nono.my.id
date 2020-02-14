@@ -27,9 +27,9 @@ pwa_title             : 'Nono'
 pwa_themecolor        : '#1e88e5'
 pwa_backgroundcolor   : '#1e88e5'
 
-serviceworker         : true
+#serviceworker         : true
 #google_analytics      : 'UA-xxx'
-#disqus_name           : 'nonohry'
+disqus_name           : 'nonohry'
 
 # Custom Jekyll Configuration
 title                 : 'Nono Heryana'
