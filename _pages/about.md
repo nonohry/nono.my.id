@@ -1,8 +1,6 @@
 ---
-layout      : page
-permalink   : /about
-title       : About the author of this blog
-description : About the author of this blog
+title: about
+layout: page
 ---
 
-Hi! My name is Nono Heryana
+hi :)
