@@ -136,6 +136,8 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
+  courses: book
+  publications: university
   about: user
   categories: th
   tags: tags
