@@ -119,8 +119,8 @@ index_with_subtitle: false
 menu:
   home: /
   #categories: /categories/
-  courses: /courses/
-  publications: /publications/
+  courses: /courses
+  publications: /publications
   archives: /archives/
   about: /about/
   #tags: /tags/
