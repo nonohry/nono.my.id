@@ -121,7 +121,7 @@ menu:
   #categories: /categories/
   courses: courses
   publications: publications
-  archives: archives
+  archives: /archives/
   about: about
   #tags: /tags/
   #sitemap: /sitemap.xml
