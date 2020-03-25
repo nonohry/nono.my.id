@@ -1,6 +1,5 @@
 ---
 title: Test - Article with Long TOC
-layout: post
 tags: Test
 ---
 
