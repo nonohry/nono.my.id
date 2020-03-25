@@ -2,6 +2,7 @@
   <div class="sidebar-toc">
     {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
     {%- if _sidebar_nav -%}
+    <h4>Table of Contents</h4>
     <ul class="toc toc--navigator">
       {%- for _item in _sidebar_nav -%}
         <li class="toc-h1">{{ _item.title }}</li>
