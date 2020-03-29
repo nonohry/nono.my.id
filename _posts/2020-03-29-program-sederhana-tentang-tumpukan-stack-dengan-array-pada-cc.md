@@ -1,11 +1,12 @@
 ---
 title: Program Sederhana tentang Tumpukan (Stack) dengan Array pada C/C++
+key: 20200329
 tags: Programming
 ---
 **Kasus**
 
 Kita ingin membuat sebuah program dalam bahasa C yang dapat mengimplementasikan struktur data tumpukan (*stack*) dengan menggunakan *array*
-
+<!--more-->
 **Solusi**
 
 Untuk mengimplementasikan struktur data *stack* di dalam bahasa C, kita dapat mendifinisikan tipe struktur seperti berikut:
