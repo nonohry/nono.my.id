@@ -1,6 +1,6 @@
 ---
 title: Program Sederhana tentang Tumpukan (Stack) dengan Array pada C/C++
-layout: articles
+layout: article
 tags: Programming
 ---
 **Kasus**
