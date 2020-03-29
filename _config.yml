@@ -98,17 +98,17 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
-    shortname: nonohry # the Disqus shortname for the site
+    shortname: #nonohry # the Disqus shortname for the site
 
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
+    clientID    : d3741cb0e94202b5cb7f # GitHub Application Client ID
+    clientSecret: 1c8160220403bdef17b9f3cdcc98204a3592bfda # GitHub Application Client Secret
     repository  : # GitHub repo
     owner       : # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.

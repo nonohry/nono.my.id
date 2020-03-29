@@ -1,6 +1,6 @@
 ---
 title: Hello World
-layout: article
+comment: true
 tags: Test
 ---
 
