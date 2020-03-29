@@ -1,6 +1,5 @@
 ---
 title: Program Sederhana tentang Tumpukan (Stack) dengan Array pada C/C++
-layout: article
 tags: Programming
 ---
 **Kasus**
@@ -23,7 +22,7 @@ struct stack {
 
 Selanjutnya, kita tinggal menambahkan beberapa operasi yang dapat dilakukan terhadap *stack* seperti yang terlihat pada kode program di bawah ini:
 
-- **Contoh_1.c** [Link to File](../src/Struktur_Data/Contoh_1.c)
+- **Contoh_1.c**
 
 ```c
 #include <stdio.h>
