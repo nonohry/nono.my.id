@@ -1,6 +1,5 @@
 header:
   - titles:
-      # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
       en-US   : *EN
@@ -15,17 +14,9 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       아카이브
       ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
     url: /archive.html
 
   - titles:
-      # @start locale config
       en      : &EN       About
       en-GB   : *EN
       en-US   : *EN
@@ -40,11 +31,4 @@ header:
       zh-HK   : *ZH_HANT
       ko      : &KO       소개
       ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      # @end locale config
     url: /about.html
