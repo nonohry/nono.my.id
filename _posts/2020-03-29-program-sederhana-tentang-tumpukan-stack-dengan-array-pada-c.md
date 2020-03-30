@@ -1,5 +1,5 @@
 ---
-title: Program Sederhana tentang Tumpukan (Stack) dengan Array pada C/C++
+title: Program Sederhana tentang Tumpukan (Stack) dengan Array pada C
 key: 20200329
 tags: Programming
 ---
