@@ -24,7 +24,7 @@ with sr.Microphone() as source:
         print('Sorry could not hear')
 ```
 
-Penjelasan:<br>
+Penjelasan: <br>
 Line 1: Kita mengimpor module speech_recognition sebagai sr<br>
 Line 3: Kita asumsikan objek Recognizer ke r<br>
 Line 5-7: Kita gunakan objek Mikrofon untuk mendengarkan audio.<br>
