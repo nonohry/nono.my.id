@@ -30,5 +30,5 @@ Line 3: Kita asumsikan objek Recognizer ke r<br>
 Line 5-7: Kita gunakan objek Mikrofon untuk mendengarkan audio.<br>
 Line 9-13: Kita gunakan try-catch untuk mengubah audio menjadi teks<br>
 
-Referensi:<<br>
+Referensi:<br>
 [^1]: Yadav, A. (n.d.). Simple Speech to Text Converter Using Speech Recognization in Python. Retrieved from https://www.codementor.io/@avnishyadav/simple-speech-to-text-converter-using-speech-recognization-in-python-14th9dd04k
