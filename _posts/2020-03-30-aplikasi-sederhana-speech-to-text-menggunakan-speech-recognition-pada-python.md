@@ -5,8 +5,9 @@ tags: Python
 ---
 Ini merupakan tutorial singkat bagaimana caranya membuat aplikasi sederhana ~speech to text~ menggunakan Python[^1].
 <!--more-->
-<div align="center">![Image STT](/assets/images/posts/stt.png)</div>
-
+<center>
+![Image STT](/assets/images/posts/stt.png)
+</center>
 langsung saja, berikut kodenya:
 ```python
 import speech_recognition as sr
