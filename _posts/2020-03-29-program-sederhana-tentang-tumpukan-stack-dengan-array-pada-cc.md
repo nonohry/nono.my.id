@@ -3,11 +3,8 @@ title: Program Sederhana tentang Tumpukan (Stack) dengan Array pada C/C++
 key: 20200329
 tags: Programming
 ---
-**Kasus**
-
-Kita ingin membuat sebuah program dalam bahasa C yang dapat mengimplementasikan struktur data tumpukan (*stack*) dengan menggunakan *array*
+Kita ingin membuat sebuah program dalam bahasa C yang dapat mengimplementasikan struktur data tumpukan (*stack*) dengan menggunakan *array*.
 <!--more-->
-**Solusi**
 
 Untuk mengimplementasikan struktur data *stack* di dalam bahasa C, kita dapat mendifinisikan tipe struktur seperti berikut:
 
@@ -23,7 +20,7 @@ struct stack {
 
 Selanjutnya, kita tinggal menambahkan beberapa operasi yang dapat dilakukan terhadap *stack* seperti yang terlihat pada kode program di bawah ini:
 
-- **Contoh_1.c**
+- **Contoh:**
 
 ```c
 #include <stdio.h>
