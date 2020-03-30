@@ -8,7 +8,8 @@ Ini merupakan tutorial singkat bagaimana caranya membuat aplikasi sederhana *spe
 <img src="/assets/images/posts/stt.png" alt="Speech to Text" align="center">
 
 langsung saja, berikut kodenya:
-```python linenos
+
+```python
 import speech_recognition as sr
 
 r = sr.Recognizer() 
