@@ -5,11 +5,10 @@ tags: Python
 ---
 Ini merupakan tutorial singkat bagaimana caranya membuat aplikasi sederhana *speech to text* menggunakan Python.
 <!--more-->
-
-![Image STT](/assets/images/posts/stt.png)
+<img src="/assets/images/posts/stt.png" alt="Speech to Text" align="middle">
 
 langsung saja, berikut kodenya:
-```python
+{% highlight python linenos %}
 import speech_recognition as sr
 
 r = sr.Recognizer() 
@@ -23,7 +22,7 @@ with sr.Microphone() as source:
         print('You said: {}'.format(text))
     except:
         print('Sorry could not hear')
-```
+{% endhighlight %}
 
 Penjelasan: 
 - Line 1: Kita mengimpor module speech_recognition sebagai sr
