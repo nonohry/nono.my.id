@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Menambahkan Plugins Embed Video Youtube
-date: 2020-01-01 00:00:00 +0700
+date: 2020-01-01 00:00:00 +0800
 category: tutorial
 thumbnail: /style/image/logo.png
 icon: book
