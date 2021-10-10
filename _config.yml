@@ -1,0 +1,23 @@
+name: Nono Heryana
+author: Nono Heryana
+url: https://nono.my.id
+baseurl: 
+resume_site: https://nono.my.id
+description: Tempat Nulis Nono Heryana
+github_username: nonohry
+github: https://github.com/nonohry
+plugins: [jekyll-paginate]
+permalink: /:year-:month-:day-:title
+paginate: 12
+paginate_path: "/page/:num/"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+highlighter: rouge
+markdown: kramdown
+googlaAnalyticsID :
+comments :
+  gitalk :
+    clientID : d3741cb0e94202b5cb7f
+    clientSecret : 1c8160220403bdef17b9f3cdcc98204a3592bfda
+    repo : nono.my.id
+    owner : nonohry
+    admin : nonohry
