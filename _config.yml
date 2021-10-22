@@ -6,7 +6,6 @@ resume_site: https://nono.my.id
 description: Tempat Nulis Nono Heryana
 github_username: nonohry
 github: https://github.com/nonohry
-plugins: [jekyll-paginate]
 permalink: /:year-:month-:day-:title
 paginate: 12
 paginate_path: "/page/:num/"
@@ -21,3 +20,7 @@ comments :
     repo : nono.my.id
     owner : nonohry
     admin : nonohry
+
+plugins:
+  - jekyll-jupyter-notebook
+  - jekyll-paginate
