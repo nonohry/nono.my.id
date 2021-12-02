@@ -7,6 +7,9 @@ thumbnail: /style/image/logo.png
 icon: book
 ---
 
+* content
+{:toc}
+
 Install debtap:
 
 ```
