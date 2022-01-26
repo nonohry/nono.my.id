@@ -1,26 +1,83 @@
-name: Nono Heryana
-author: Nono Heryana
-url: https://nono.my.id
-baseurl: 
-resume_site: https://nono.my.id
-description: Tempat Nulis Nono Heryana
-github_username: nonohry
-github: https://github.com/nonohry
-permalink: /:year-:month-:day-:title
-paginate: 12
-paginate_path: "/page/:num/"
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
-highlighter: rouge
+# Site settings
+site: Nono Heryana
+title: Part time hard worker, full time dreamer.
+keywords: nono, blog
+description: >-
+  Part time hard worker, full time dreamer.
+lang: en-US
+timezone:  Asia/Jakarta
+repo: https://github.com/nonohry/nono.my.id/ # site repo [optional]
+google_verify:      XXX # Put your Google Verification here
+google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
+discus-identifier:  nonohry
+
+# Author settings
+author:
+  name: Nono Heryana
+  bio: Part time hard worker, full time dreamer.
+  picture: assets/images/profile.jpg 
+  github: nonohry # github username
+  twitter: nonohry # twitter username
+  facebook: nonohry # facebook username
+  instagram: nonohry # instagram username
+  youtube: https://www.youtube.com/channel/UCCjcoq7Ju6nmXjwbqP5rEaQ # youtube username
+  linkedin: nonohry # linkedin username
+  email: nonoheryana@gmail.com # email address
+
+
+# URL settings
+url: "https://nono.my.id" # Domain Name of host. [username].github.io for github pages
+permalink: pretty
+
 markdown: kramdown
-googlaAnalyticsID :
-comments :
-  gitalk :
-    clientID : d3741cb0e94202b5cb7f
-    clientSecret : 1c8160220403bdef17b9f3cdcc98204a3592bfda
-    repo : nono.my.id
-    owner : nonohry
-    admin : nonohry
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+
+exclude:
+  - .jekyll-cache
+  - .obsidian
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+  - CONTRIBUTING.md
 
 plugins:
-  - jekyll-jupyter-notebook
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-relative-links
+paginate: 20
+paginate_path: "/page/:num"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:slug
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+relative_links:
+  enabled:     true
+  collections: false
